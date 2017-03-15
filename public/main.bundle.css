@@ -1,0 +1,26 @@
+.header md-autocomplete {
+  margin-top: 45px; }
+
+.container .user-card {
+  margin: 8px 0 8px 0; }
+
+.submit-button {
+  float: right; }
+
+.file_input_div {
+  margin: auto;
+  width: 250px;
+  height: 40px; }
+
+.file_input {
+  float: left; }
+
+#file_input_text_div {
+  width: 200px;
+  margin-top: -8px;
+  margin-left: 5px; }
+
+.none {
+  display: none; }
+
+/*# sourceMappingURL=main.bundle.css.map*/
