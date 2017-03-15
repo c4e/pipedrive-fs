@@ -6,7 +6,7 @@ var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
 
 var index = require('./api/index');
-var importCvs = require('./api/import-cvs');
+var importCsv = require('./api/import-csv');
 var searchUsers = require('./api/search');
 
 var app = express();
@@ -25,7 +25,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 // routes
 app.use('/', index);
-app.use('/import', importCvs);
+app.use('/import', importCsv);
 app.use('/search', searchUsers);
 
 // catch 404 and forward to error handler
